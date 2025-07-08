@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 function CommunityBanner() {
   return (
@@ -13,7 +13,9 @@ function CommunityBanner() {
       A safe space to learn, share, and grow — built for women, queer <br /> 
       talent, and second-career professionals.
     </p>
-    <button className="join-btn">Join Community</button>
+    <Link to="/community">
+  <button className="join-btn">Join Community</button>
+</Link>
   </div>
 </div>
 

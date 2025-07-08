@@ -12,6 +12,7 @@ import RegistrationPage from "./pages/Registration/RegistrationPage";
 import GlobalFlex from "./pages/Globalflex/globalflex";
 import Deimain from "./pages/Dei/Deimain";
 import Deitalent from "./pages/Deitalent/Deitalent";
+import CommunityPage from "./pages/Home/homecontent/CommunityPage";
 
 
 
@@ -32,6 +33,7 @@ export default function App() {
           <Route path="/GlobalFlex" element={<GlobalFlex/>} />
            <Route path="/DEITalent" element={<Deimain/>} />
              <Route path="/DEITalenthire" element={<Deitalent/>} />
+             <Route path="/community" element={<CommunityPage />} />
       </Routes>
     </Router>
        <ToastContainer position="top-right" autoClose={3000} /></>
